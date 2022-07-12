@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
+
+@font-face {
+    font-family: fonte;
+    src: url(fontes/idroid.otf);
+}
+
+body{
+        background-color: #EBE5C5;
+}
+
+main p{
+    text-indent: 20px;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    line-height: 1.7em;
+    margin-inline-end: 0px;
+    margin: 15px 0px;
+    font-size: 0.8em;
+}
+h1#cabeca{
+    text-align: center;
+    color: white;
+    font-family: 'Gulzar', serif;
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 27%);
+}
+
+p#pcabeca{
+    text-align: center;
+    color: white;
+    padding-right: 10px;
+    padding-bottom: 45px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 32%);
+    margin: auto;
+
+}
+
+header{
+    background-image: linear-gradient(to bottom, #41D983, #063B1D);
+    padding: 10px;
+    border: 10px;
+    margin: auto;
+    margin-top: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+.cabecalho{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    border-radius: 10px;
+}
+
+.cabecalho:hover{
+    background-color: #41D983;
+    color: #063D1E;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition-duration: 0.7s;
+}
+
+main{
+    background-color: white;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0px 1px 10px #000000a4;
+    border-radius: 0px 0px 10px 10px;
+}
+
+h1#historia{
+    font-family: fonte;
+    font-size: 2em;
+    color: #063D1E;
+    padding-left: 10px;
+}
+
+p#phistoria{
+    text-align: center;
+}
+
+.texto{
+    font-family: fonte;
+    font-size: 25px;
+    color: #237447;
+    background-image: linear-gradient(to right, #a6ffc1b2, white);
+}
+
+strong{
+    color: #237447;
+}
+
+.link{
+    text-decoration: none;
+
+}
+
+.link::after{
+    content: "↩";
+    color: #237447;
+}
+
+.link:hover{
+    text-decoration: underline #237447;
+}
+
+.foto{
+    display: block;
+    margin: auto;
+}
+
+img#bug{
+    max-width: 450px;
+    display: block;
+    margin: auto;
+}
+
+div{
+    display: block;
+}
+
+div.video{
+    background-color: #063D1E;
+    margin: 0px -10px 40px -10px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+h3#cabli{
+    background-color: #1A5C37;
+    color: white;
+    display: block;
+    width: auto;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    border: 20px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+p#doce{
+    margin-top: -23px;
+    padding-top: 20px;
+}
+
+aside{
+    background-color: #83E1AD;
+    box-shadow: 2px 2px 6px #00000069;
+    border-radius: 10px;
+}
+
+p#final{
+    padding-bottom: 20px;
+}
+
+.final{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+footer{
+    text-align: center;
+    background-color: #063D1E;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-bottom: -25px;
+    display: block;
+
+}
+
+p#footer{
+    color: white;
+    font-size: 0.7em;
+}
+
+a#ultimolink{
+    color: white;
+    text-decoration: none;
+}
+
+a#ultimolink:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+aside > ul{
+    list-style-type: '\2714\00A0\00A0';
+    columns: 2;
+}
